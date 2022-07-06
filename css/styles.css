@@ -184,7 +184,7 @@ ul {
     fill: currentColor;
 
 }
-.nav-contacts:hover .icon-smartphone {
+.nav-contacts .icon-smartphone {
     fill: currentColor;
 }
 
@@ -365,7 +365,7 @@ ul {
 }
 .box{
     padding-top: 30px;
-    padding-bottom:16px;
+    padding-bottom:30px;
 }
 .text-box-title{
     margin-bottom: 10px;
@@ -444,19 +444,19 @@ background-color: var(--color-accent);
     margin-right: 30px;
 }
 .icon-link-client{
-    display: inline-block;
+    display: flex;
     justify-content: center;
-    border:1px solid rgba(175, 177, 184, 1);
-    border-radius: 4px;
-   
+    align-items: center;
     width: 170px;
     height: 92px;
+    border:1px solid rgba(175, 177, 184, 1);
+    border-radius: 4px;
 
 }
 .icon-client{
     width: 106px;
     height: 60px;
-    margin: 16px 32px;
+   
     fill: #AFB1B8;
    
 }

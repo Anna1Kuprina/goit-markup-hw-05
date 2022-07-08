@@ -209,12 +209,6 @@ ul {
     fill: currentColor;
 }
 
-
-
-
-
-
-
 /* section-1 */
 
 
@@ -717,9 +711,9 @@ footer {
   
     
  }
-   .card-link{
-    text-decoration: none;
-    
+   .overlay-card img{
+    padding-top: 1px;
+    padding-bottom: 1px;
    }
    .overlay-card{
     position: relative;
@@ -797,6 +791,7 @@ footer {
   }
   .card-link{
     display: block;
+    text-decoration: none;
     transition: box-shadow var(--transition);
   }
   .portfolio-cards .card-link:focus {
